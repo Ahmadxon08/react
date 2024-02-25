@@ -1,0 +1,124 @@
+.table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+  .table_head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h1 {
+      font-family: Poppins;
+      font-size: 34px;
+      font-weight: 700;
+      line-height: 51px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+    p {
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+  }
+  .table_cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    margin-top: 50px;
+    .table_card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      transition: all .3s;
+
+      width: 323.04px;
+      height: 456px;
+      border-radius: 8px;
+      box-shadow: 0px 2px 8px 0px #00000040;
+
+      h1 {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+      p {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+      .price {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        span {
+          font-family: Poppins;
+          font-size: 76px;
+          font-weight: 700;
+          line-height: 100px;
+          letter-spacing: 0.20000000298023224px;
+          text-align: center;
+          color: #02897a;
+        }
+        .cost {
+          display: flex;
+          gap: normal;
+          flex-direction: column;
+          h2 {
+            color: #02897a;
+            font-family: Inter;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 30px;
+            letter-spacing: 0.10000000149011612px;
+            text-align: left;
+          }
+        }
+      }
+      .pi {
+        display: flex;
+        flex-direction: column;
+        gap: -8px;
+      }
+      .btna {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 139px;
+        height: 44px;
+        background-color: #02897a;
+        border-radius: 6px;
+        cursor: pointer;
+        a {
+          font-family: Montserrat;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 22px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #fff;
+        }
+      }
+    }
+    .table_card:hover  {
+        background-color: #02897a;
+        color: #fff;
+      
+ 
+    }
+  }
+}

@@ -1,0 +1,108 @@
+footer {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  .footer_content {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    background-color: #02897a;
+
+    border-radius: 32px;
+    flex-wrap: wrap;
+    .footer_texts {
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      padding: 50px;
+      gap: 40px;
+      p {
+        font-family: Poppins;
+        font-size: 32px;
+        max-width: 420px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+      }
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        border: 0;
+        height: 50px;
+        border-radius: 8px;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        cursor: pointer;
+        color: #02897a;
+      }
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  footer {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    .footer_content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #02897a;
+
+      border-radius: 32px;
+      flex-wrap: wrap;
+      .footer_texts {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px;
+        gap: 40px;
+        p {
+            display: flex;
+          
+          font-family: Poppins;
+          font-size: 32px;
+          max-width: 420px;
+          font-weight: 600;
+          line-height: 48px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #fff;
+        }
+        button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 150px;
+          border: 0;
+          height: 50px;
+          border-radius: 8px;
+          font-family: Poppins;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 30px;
+          letter-spacing: 0em;
+          text-align: left;
+          cursor: pointer;
+          color: #02897a;
+        }
+      }
+      .footer_img img{
+        width: 330px;
+      }
+    }
+  }
+}
